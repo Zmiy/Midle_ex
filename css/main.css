@@ -19,6 +19,7 @@
 .header{
     background-image: linear-gradient(#909090, #eeeeee);
     width: 100%;
+    height: 105px;
     position: relative;
 }
 .navContainer{
@@ -28,7 +29,9 @@
 
 .nav{
   padding: 10px;
-  /* width:85%; */
+  width:85%; 
+  float:left;
+  margin-top:30px;
 }
 
 nav>ul>li>a{
@@ -38,12 +41,24 @@ nav>ul>li>a{
 }
 nav>ul>li>a:hover{
     color:blue;
+    text-decoration: underline;
 }
-/* nav>ul>li::before{
+/* nav>ul>li::after{
     content: "|";
-    padding-right: 50px;
-    color:lightblue;
+    padding-right: 5px;
+    padding-right: 5px;
+    color:red;
 } */
+.splitter{
+    color: #eee;
+    padding-left:5px;
+    padding-right: 5px;
+}
+.homeLink{
+    width: 17px;
+    height: 15px;
+    background: url(../img/menu_home.png) 17px 0;
+}
 .dropdown:hover .dropdownContent {
     display: block;
 }
@@ -70,12 +85,13 @@ nav>ul>li>a:hover{
 .dropdownContent a{
     display:block;
     text-decoration: none;
-    font-size: 12px;
-    color: blue;
+    font-size: 14px;
+    color:white;
     padding: 5px;
 }
 .dropdownContent a:hover{
-    background-color: gold;
+    color:blue;
+    text-decoration: underline;
 }
 nav::after{
     content: "";
@@ -94,6 +110,42 @@ nav::after{
 
 .logo{
     position: absolute;
+    bottom:-105px;
+}
+.searchContainer{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.left1, .left2, .left3{
+    float: left;
+}
+.left1{
+    width:19px;
+    height: 19px;
+    position: absolute;
+    left: -7px;
+    top: 12px;
+    margin-left: 20px;
 }
 
+.left2{
+    width: 20%;
+    height: 21px;
+    border-top-right-radius: 10px;
+    margin-left:20px;
+}
+
+.left3{
+    color: white;
+    text-decoration: none;
+    font-size:12px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+.left3:hover{
+    text-decoration: underline;
+    color:blue;
+}
 /*--------------------*/
