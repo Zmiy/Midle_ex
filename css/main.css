@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    direction:rtl;
+}
+
+.clearFix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mainContainer{
+    width:900px;
+    margin:auto;
+}
+
+/* Menu
+
+/*
