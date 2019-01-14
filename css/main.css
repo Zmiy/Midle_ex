@@ -21,6 +21,7 @@
     width: 100%;
     height: 105px;
     position: relative;
+    margin-bottom: 40px;
 }
 .navContainer{
     width:85%;
@@ -190,13 +191,21 @@ nav::after{
 }
 /* -------------------- */
 
+.rowContainer1{
+    margin:5px auto;
+}
+.rowContainer2{
+
+    margin-bottom: 30px;
+}
+
 div.firstRow{
     display: inline-block;
     position: relative;
     width: 293px;
     height: 355px;
     border: thin solid white;
-    margin: 40px 2px;
+    margin: 0px 2px;
     background-color: #000;
     border-bottom-right-radius: 20px;
 }
@@ -239,25 +248,43 @@ div.firstRow{
 
 .moreRead{
     float: left;
-    color: white;
     position: absolute;
     bottom: 4px;
     left:15px;
-    font-size: 12px;
+    font-size: 14px;
     padding-left: 12px;
 }
+.firstRow .moreRead{
+    color: white;
+}
+.secondRow .moreRead{
+    color: gray;
+}
+
+.vertMenu{
+    display:block;
+    font-size: 14px;
+    color: gray;
+    padding: 0 12px;
+}
+
 a.moreRead.white{
     background: url(../img/read_more_white.png) no-repeat left center;
 }
 a.moreRead.yellow{
+    background: url(../img/read_more_yellow.png) no-repeat right center;
+}
+a.vertMenu.yellow{
     background: url(../img/read_more_yellow.png) no-repeat left center;
 }
-a.moreRead:hover{
+a.moreRead:hover, a.vertMenu:hover{
     color:blue;
     background: url(../img/read_more_blue.png) no-repeat left center;
 }
 
-
+a.vertMenu{
+    width: 45px;
+}
 .secondRow{
     /* display: inline-block; */
     position: relative;
@@ -265,7 +292,7 @@ a.moreRead:hover{
     width: 293px;
     height: 216px;
     border: thin solid lightgray;
-    margin: 40px 2px;
+    margin: 0px 2px;
     background-image: linear-gradient(#ffffff,lightgray);
     border-top-right-radius: 20px;
 }
@@ -280,6 +307,28 @@ a.moreRead:hover{
 .imgCenter{
     width:250px;
     height: 110px;
-    margin: auto;
+    margin: 15px auto;
     display:block;
+}
+
+#mapImg{
+    float:left;
+    width:25%;
+    
+}
+#mapImg img{
+    width:73px;
+    height: 168px;
+    display:block;
+}
+#litlContainer{
+    width:100%;
+}
+#litlVertMenu{
+    width:75%;
+    float:left;
+}
+
+#litlVertMenu>ul>li{
+    list-style: none;
 }
