@@ -217,7 +217,7 @@ div.firstRow{
     bottom:4px;
     right:10px;
     width: 90%;
-    height: 30%;
+    height: 33%;
     background-color:rgba(102, 93, 93, 0.863);
     border-bottom-right-radius:20px;
     z-index: 1;
@@ -240,8 +240,8 @@ div.firstRow{
 .moreRead{
     float: left;
     color: white;
-    position: relative;
-    bottom: 20px;
+    position: absolute;
+    bottom: 4px;
     left:15px;
     font-size: 12px;
     padding-left: 12px;
@@ -249,6 +249,31 @@ div.firstRow{
 a.moreRead.white{
     background: url(../img/read_more_white.png) no-repeat left center;
 }
+a.moreRead.yellow{
+    background: url(../img/read_more_yellow.png) no-repeat left center;
+}
 a.moreRead:hover{
     color:blue;
+    background: url(../img/read_more_blue.png) no-repeat left center;
+}
+
+
+.secondRow{
+    display: inline-block;
+    position: relative;
+    width: 293px;
+    height: 216px;
+    border: thin solid lightgray;
+    margin: 40px 2px;
+    background-image: linear-gradient(#ffffff,lightgray);
+    border-top-right-radius: 20px;
+}
+.secondRow p{
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 3px;
+}
+.imageCenter{
+    width:250px;
+    height: 110px;
+    margin: auto;
 }
