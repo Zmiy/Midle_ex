@@ -2,6 +2,7 @@
     box-sizing: border-box;
     direction:rtl;
     padding:0;
+    text-align: right;
 }
 
 .clearFix{
@@ -11,17 +12,21 @@
 }
 
 .mainContainer{
-    width:900px;
+    /* width:900px; */
     margin:auto;
 }
 
 /* Header & Menu*/
-.header{
+.fullHeader{
     background-image: linear-gradient(#909090, #eeeeee);
     width: 100%;
     height: 105px;
     position: relative;
     margin-bottom: 40px;
+}
+.header{
+    width: 900px;
+    margin:auto;
 }
 .navContainer{
     width:85%;
@@ -111,12 +116,13 @@ nav::after{
 
 .logo{
     position: absolute;
-    bottom:-105px;
+    bottom:-120px;
 }
 .searchContainer{
     margin-top: 10px;
     margin-left: 10px;
-    
+    width: 100%;
+    position: relative;
 }
 .left1, .left2, .left3{
     float: left;
@@ -125,8 +131,8 @@ nav::after{
     width:19px;
     height: 19px;
     position: absolute;
-    left: -7px;
-    top: 12px;
+    left: -17px;
+    top: 2px;
     margin-left: 20px;
 }
 
@@ -189,8 +195,14 @@ nav::after{
     background: url(../img/fb_icon.png);
 
 }
+.footer>ul>li>a#red{
+    color:red;
+}
 /* -------------------- */
-
+.content{
+    width:900px;
+    margin:auto;
+}
 .rowContainer1{
     margin:5px auto;
 }
@@ -272,7 +284,7 @@ a.moreRead.white{
     background: url(../img/read_more_white.png) no-repeat left center;
 }
 a.moreRead.yellow{
-    background: url(../img/read_more_yellow.png) no-repeat right center;
+    background: url(../img/read_more_yellow.png) no-repeat left center;
 }
 a.vertMenu.yellow{
     background: url(../img/read_more_yellow.png) no-repeat left center;

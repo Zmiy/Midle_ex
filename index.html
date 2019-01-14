@@ -7,57 +7,61 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>midle ex</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="script/main.js"></script>
 </head>
 
 <body>
     <div class="mainContainer ">
-        <div class="header clearFix">
-            <div class="searchContainer">
-                <img class="left1" src="img/search_button.png" alt="">
-                <input class="left2" type="text">
-                <a class="left3" href="#">English</a>
+        <div class="fullHeader">
+
+
+            <div class="header ">
+                <div class="searchContainer clearFix">
+                    <img class="left1" src="img/search_button.png" alt="">
+                    <input class="left2" type="text">
+                    <a class="left3" href="#">English</a>
+                </div>
+
+                <div class="logoContainer">
+                    <a href="index.html"><img class="logo" src="img/paz_logo.png" alt="logo of paz"></a>
+                </div>
+
+                <nav class="nav">
+                    <ul>
+                        <li class="homeLink">
+                            <a href="index.html"></a>
+                        </li>
+                        <li class="spliter">|</li>
+                        <li class="dropdown"><a href="#">אודות</a>
+                            <div class="dropdownContent">
+                                <a href="#">חברי דירקטוריון</a>
+                                <a href="#">הנהלה</a>
+                                <a href="#">עובדים</a>
+                            </div>
+                        </li>
+                        <li class="spliter">|</li>
+                        <li class="dropdown"><a href="#">חטיבות</a>
+                            <div class="dropdownContent">
+                                <a href="#">חטיפים</a>
+                                <a href="#">שוקולדים</a>
+                                <a href="#">סוכריות</a>
+                                <a href="#">מארזים</a>
+                            </div>
+                        </li>
+                        <li class="spliter">|</li>
+                        <li><a href="#">אחריות תאגידית</a></li>
+                        <li class="spliter">|</li>
+                        <li><a href="#">קשרי משקיעים</a></li>
+                        <li class="spliter">|</li>
+                        <li><a href="#">התחנות שלנו</a></li>
+                        <li class="spliter">|</li>
+                        <li><a href="#">קריירה</a></li>
+                        <li class="spliter">|</li>
+                        <li><a href="#">חדשות ומדיה</a></li>
+                    </ul>
+                </nav>
+
             </div>
-
-            <div class="logoContainer clearFix">
-                <a href="index.html"><img class="logo" src="img/paz_logo.png" alt="logo of paz"></a>
-            </div>
-
-            <nav class="nav">
-                <ul>
-                    <li class="homeLink">
-                        <a href="index.html"></a>
-                    </li>
-                    <li class="spliter">|</li>
-                    <li class="dropdown"><a href="#">אודות</a>
-                        <div class="dropdownContent">
-                            <a href="#">חברי דירקטוריון</a>
-                            <a href="#">הנהלה</a>
-                            <a href="#">עובדים</a>
-                        </div>
-                    </li>
-                    <li class="spliter">|</li>
-                    <li class="dropdown"><a href="#">חטיבות</a>
-                        <div class="dropdownContent">
-                            <a href="#">חטיפים</a>
-                            <a href="#">שוקולדים</a>
-                            <a href="#">סוכריות</a>
-                            <a href="#">מארזים</a>
-                        </div>
-                    </li>
-                    <li class="spliter">|</li>
-                    <li><a href="#">אחריות תאגידית</a></li>
-                    <li class="spliter">|</li>
-                    <li><a href="#">קשרי משקיעים</a></li>
-                    <li class="spliter">|</li>
-                    <li><a href="#">התחנות שלנו</a></li>
-                    <li class="spliter">|</li>
-                    <li><a href="#">קריירה</a></li>
-                    <li class="spliter">|</li>
-                    <li><a href="#">חדשות ומדיה</a></li>
-                </ul>
-            </nav>
-
-
         </div>
 
 
@@ -114,7 +118,7 @@
                 </div>
                 <div class="secondRow">
                     <p>yellow click</p>
-                    <a href="#"><img class="imgCenter" src="img/paz_250X110571325734.jpg"></a>
+                    <a href="#"><img id="changedImage" class="imgCenter" src="img/paz_250X110571325734.jpg"></a>
                     <a class="moreRead yellow" href="#">
                         <span>לפרטים נוספים</span>
                     </a>
@@ -122,13 +126,13 @@
                 <div class="secondRow">
                     <p>התחנות שלנו בדרך שלך</p>
                     <div id="litlContainer" class="clearFix">
-                        <div id="mapImg"><img src="img/map-paz.png" alt="maps"></div> 
+                        <div id="mapImg"><img src="img/map-paz.png" alt="maps"></div>
                         <div id="litlVertMenu">
-                            
-                                <a class="vertMenu yellow" href="#"><span>צפון</span></a>
-                                <a class="vertMenu yellow" href="#"><span>מרכז</span></a>
-                                <a class="vertMenu yellow" href="#"><span>דרומ</span></a>
-                            
+
+                            <a class="vertMenu yellow" href="#"><span>צפון</span></a>
+                            <a class="vertMenu yellow" href="#"><span>מרכז</span></a>
+                            <a class="vertMenu yellow" href="#"><span>דרומ</span></a>
+
                         </div>
                     </div>
                 </div>
@@ -155,7 +159,7 @@
                 <li class="spliter">|</li>
                 <li><a href="#">שטחי מסחר</a></li>
                 <li class="spliter">|</li>
-                <li><a href="#">הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט
+                <li><a id="red" href="#">הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט
                     </a></li>
             </ul>
         </footer>
