@@ -1,0 +1,16 @@
+.mainColumn{
+    width:900px;
+    margin:auto;
+}
+
+.column{
+    float:left;
+    position: relative;
+}
+
+.leftInfo{
+    border: thin solid gray;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 100px;
+}
