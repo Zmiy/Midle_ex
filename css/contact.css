@@ -16,7 +16,7 @@
     border: thin solid gray;
     border-top-right-radius: 20px;
     width: 100%;
-    height: 175px;
+    height: 200px;
     background: linear-gradient( #f9f9f9, #f1f1f1);
     padding: 12px 18px 12px 18px;
 }
@@ -30,42 +30,94 @@
     color: #005ca0;
     font-weight: bold;
     font-size: 15px;
+    margin: 0;
+    width:100%;
 }
 .text h2{
     color: #005ca0;
     font-weight: bold;
     font-size: 15px;
     border-bottom: thin solid lightgray;
+    margin: 0;
+}
+.divForm p, .text strong, .text p, .text a{
+    margin: 0;
+    font-size:13px;
 }
 
-.divForm p{
+.divForm p, .text p, .text strong{
     color: #6d6d6d;
-
+}
+.text a, .text a:hover{
+    color: blue;
 }
 
 .elements{
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
+    width:100%;
+    margin-bottom: 5px;
 }
 
-.labels, .inputContent{
-    float: left; 
+.label, .inputContent{
+    float: right; 
 }
 
-.labels{
-    width: 40%;
+.label{
+    width: 30%;
     font-size:12px;
     display:block;
+    color: #6d6d6d;
+    padding: 3px;
 }
+
 .inputContent{
-    width: 60%;
+    /* width: 75%; */
     line-height: 14px;
+    width: 168px;
+    padding: 3px;
+    display: block;
+}
+.txtArea{
+    width: 240px;
 }
 
 
 .leftInfo1 {
+    margin-top: 50px;
     margin-bottom:10px;
 }
 .leftInfo2{
     margin-top:15px;
 }
-
+.button{
+    background-color: blue;
+    color: white;
+    font-size: 13px;
+    float: left;
+    border: thin solid blue;
+    border-top-right-radius: 8px;
+    width: 44px;
+    text-align: center;
+    margin: 5px 0;
+}
+h1{
+    font-size: 15px;
+    font-weight: bold;
+    color: #72716d;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+}
+#breadCrumbs{
+    margin-bottom:25px;
+    font-size: 12px;
+    color: #5a5a5a;
+}
+#breadCrumbs a{
+    text-decoration: none;
+    color:#5a5a5a;
+}
+#breadCrumbs a:hover{
+    color: #005CA0;
+    text-decoration: underline;
+}
