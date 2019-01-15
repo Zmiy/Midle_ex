@@ -5,21 +5,20 @@
 
 .leftColumn, .rightColumn{
     float:left;
-    width: 50%;    
+    width: 45%;    
 }
 .leftColumn{
-    padding-right: 10px;
-    
-}
-.rightColumn{
-    padding-left:10px;
+    /* padding-right: 10px; */
+    margin-right: 10%;
 }
 
-.leftInfo{
+.leftInfo1, .leftInfo2{
     border: thin solid gray;
     border-top-right-radius: 20px;
     width: 100%;
-    height: 100px;
+    height: 175px;
+    background: linear-gradient( #f9f9f9, #f1f1f1);
+    padding: 12px 18px 12px 18px;
 }
 .divForm{
     border:thin solid gray;
@@ -32,6 +31,12 @@
     font-weight: bold;
     font-size: 15px;
 }
+.text h2{
+    color: #005ca0;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: thin solid lightgray;
+}
 
 .divForm p{
     color: #6d6d6d;
@@ -42,16 +47,25 @@
     padding-bottom: 20px;
 }
 
-.labels, .content{
-    float: right; 
+.labels, .inputContent{
+    float: left; 
 }
 
 .labels{
-    width: 30%;
+    width: 40%;
     font-size:12px;
     display:block;
 }
-.content{
-    width: 70%;
+.inputContent{
+    width: 60%;
     line-height: 14px;
 }
+
+
+.leftInfo1 {
+    margin-bottom:10px;
+}
+.leftInfo2{
+    margin-top:15px;
+}
+
