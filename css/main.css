@@ -66,6 +66,11 @@ nav>ul>li>a:hover{
     height: 15px;
     background: url(../img/menu_home.png) 17px 0;
 }
+.homeLink a{
+    width:17px;
+    height: 15px;
+    z-index: 1;
+}
 .dropdown:hover .dropdownContent {
     display: block;
 }
