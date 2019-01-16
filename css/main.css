@@ -314,7 +314,7 @@ a.vertMenu{
     width: 293px;
     height: 216px;
     border: thin solid lightgray;
-    margin: 0px 2px;
+    margin: 0px 6px 0px 2px;
     background-image: linear-gradient(#ffffff,lightgray);
     border-top-right-radius: 20px;
 }
@@ -349,6 +349,8 @@ a.vertMenu{
 #litlVertMenu{
     width:75%;
     float:left;
+    margin: 40px 0;
+    padding-right:10px;
 }
 
 #litlVertMenu>ul>li{
