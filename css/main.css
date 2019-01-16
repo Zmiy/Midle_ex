@@ -73,7 +73,7 @@ nav>ul>li>a:hover{
     float:right;
     list-style: none;
     /* padding: 0px 30px;     */
-    margin-right: 15px;
+    margin-right: 12px;
 }
 
 .nav>ul{
@@ -117,7 +117,8 @@ nav::after{
 
 .logo{
     position: absolute;
-    bottom:-120px;
+    /* bottom:-120px; */
+    top: 10px;
 }
 .searchContainer{
     margin-top: 10px;
@@ -133,7 +134,7 @@ nav::after{
     height: 19px;
     position: absolute;
     left: -17px;
-    top: 2px;
+    top: 12px;
     margin-left: 20px;
 }
 
@@ -142,6 +143,7 @@ nav::after{
     height: 21px;
     border-top-right-radius: 10px;
     margin-left:20px;
+    margin-top: 10px;
 }
 
 .left3{
@@ -150,7 +152,7 @@ nav::after{
     font-size:12px;
     font-weight: bold;
     margin-left: 20px;
-    margin-top: 6px;
+    margin-top: 15px;
 }
 .left3:hover{
     text-decoration: underline;

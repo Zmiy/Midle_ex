@@ -3,14 +3,37 @@
     margin:auto;
 }
 
-.leftColumn, .rightColumn{
-    float:left;
-    width: 45%;    
+.leftColumn, .rightColumn, .rightButton{
+    float: right;
+    /* width: 45%;     */
 }
+
 .leftColumn{
     /* padding-right: 10px; */
-    margin-right: 10%;
+    margin-right: 10px;
+    width:292px;
 }
+.rightColumn{
+    width: 440px;
+}
+
+.rightButton{
+    width:122px;
+    height:36px;
+    background: linear-gradient( #f9f9f9, #f1f1f1);
+}
+
+.rightButton a{
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 13px;
+}
+.rightButton a:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+
 
 .leftInfo1, .leftInfo2{
     border: thin solid gray;
