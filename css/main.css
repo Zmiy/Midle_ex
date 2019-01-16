@@ -119,7 +119,9 @@ nav::after{
     position: absolute;
     /* bottom:-120px; */
     top: 10px;
+    left: 0;
 }
+
 .searchContainer{
     margin-top: 10px;
     margin-left: 10px;
