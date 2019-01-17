@@ -6,7 +6,7 @@
     font-family: 'Arial (Hebrew)', Arial, Helvetica, sans-serif;
 }
 
-.clearFix{
+.clearFix::after{
     content: "";
     display: table;
     clear: both;
@@ -314,7 +314,7 @@ a.vertMenu{
     width: 293px;
     height: 216px;
     border: thin solid lightgray;
-    margin: 0px 6px 0px 2px;
+    margin: 0px 2px;
     background-image: linear-gradient(#ffffff,lightgray);
     border-top-right-radius: 20px;
 }
